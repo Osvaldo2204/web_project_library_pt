@@ -325,18 +325,26 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column_content_hours {
+  color: white;
+
 }
 
 .footer__column_content_social {
+  color: white;
 }
 
 .footer__logo {
+
 }
 
 .footer__column-heading {
@@ -361,4 +369,5 @@
 }
 
 .footer__copyright {
+  color: white;
 }
